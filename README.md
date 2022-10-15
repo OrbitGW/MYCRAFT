@@ -1,5 +1,9 @@
 # MYCRAFT - a minecraft-like game project
 
+![](https://img.shields.io/badge/blog-orbitgw-9cf?link=https://blog.csdn.net/weixin_43130747&link=https://blog.csdn.net/weixin_43130747)
+![](https://img.shields.io/badge/license-MIT-orange)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/orbitgw/MYCRAFT)
+
 <img title="" src="./Assets/logo/logo.png" alt="" width="600">
 
 ## Build
