@@ -1,0 +1,17 @@
+#vs17
+.vs/
+Debug/
+x64/
+
+#C++
+.dll
+.lib
+.so
+.a
+
+#sys
+.exe
+.out
+
+#deps
+deps/
