@@ -25,6 +25,7 @@
 #include <iostream>
 
 extern int set_window_icon(GLFWwindow* window);
+void framebuffer_size_callback(GLFWwindow* window, int width, int height)；
 
 int main(){
     GLFWwindow* window;
@@ -42,6 +43,8 @@ int main(){
     }
 
     glfwMakeContextCurrent(window);
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
         std::cerr << "Failed to load glad." << std::endl;
     }
@@ -67,3 +70,6 @@ int main(){
     return 0;
 }
 
+void framebuffer_size_callback(GLFWwindow* window, int width, int height){
+	glViewport(0, 0, width, height);
+}
